@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <script type="module" src="./scripts/app.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Admin</h1>
+        <p>You can open and modify this page by adding a Product!</p>
+        <button id="LogOut">Logout</button>
+    </header>
+
+    <div class="heroSection">
+
+    </div>
+
+    <div class="main-wrapper">
+
+        <form>
+            <div class="input-controller">
+                <input type="text" id="title">
+                <label for="price">Title</label>
+            </div>
+    
+            <div class="input-controller">
+                <input type="number" id="price">
+                <label for="price">Price</label>
+            </div>
+            
+            <div class="input-controller">
+                <input type="text" id="description">
+                <label for="price">Des.</label>
+            </div>
+
+            <button id="addBtn">Add Product</button>
+        </form>
+
+        <div class="products_container">
+            <div id="products-list"></div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
